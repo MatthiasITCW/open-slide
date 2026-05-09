@@ -81,6 +81,9 @@ export const ja: Locale = {
   },
 
   slide: {
+    agentConnected: 'エージェント接続中',
+    agentConnectedTooltip:
+      '現在のスライドと Inspector の選択状態を dev server がエージェントに公開しています。チャットで「このスライド」「この要素」と言えば認識されます。本番ビルドでは表示されません。',
     home: 'ホーム',
     backToHome: 'ホームへ戻る',
     download: 'ダウンロード',

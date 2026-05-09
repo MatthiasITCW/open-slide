@@ -83,6 +83,9 @@ export const en: Locale = {
   slide: {
     home: 'Home',
     backToHome: 'Back to home',
+    agentConnected: 'Agent connected',
+    agentConnectedTooltip:
+      'The dev server is publishing your current slide and inspector selection to your agent. Ask "this slide" or "this element" in chat and it will resolve. Disappears in production builds.',
     download: 'Download',
     exportAsHtml: 'Export as HTML',
     exportAsPdf: 'Export as PDF',

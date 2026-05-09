@@ -81,6 +81,9 @@ export const zhCN: Locale = {
   },
 
   slide: {
+    agentConnected: 'Agent 已连接',
+    agentConnectedTooltip:
+      'Dev server 正在把你目前在哪张 slide、Inspector 选了哪个元素发布给 agent。直接到聊天说"这张 slide"或"这个元素"就行。Production build 不会出现。',
     home: '首页',
     backToHome: '返回首页',
     download: '下载',

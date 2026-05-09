@@ -86,6 +86,8 @@ export type Locale = {
   slide: {
     home: string;
     backToHome: string;
+    agentConnected: string;
+    agentConnectedTooltip: string;
     download: string;
     exportAsHtml: string;
     exportAsPdf: string;
