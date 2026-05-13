@@ -85,7 +85,7 @@ export const en: Locale = {
     backToHome: 'Back to home',
     agentConnected: 'Agent connected',
     agentConnectedTooltip:
-      'The dev server is publishing your current slide and inspector selection to your agent. Ask "this slide" or "this element" in chat and it will resolve. Disappears in production builds.',
+      'The current slide and inspector selection are synced to your agent in real time.',
     agentDisconnected: 'Agent disconnected',
     agentDisconnectedTooltip:
       'Lost connection to the dev server, so your agent can no longer see the current slide or inspector selection. Restart the dev server to restore the connection.',
@@ -163,8 +163,7 @@ export const en: Locale = {
     inspect: 'Inspect',
     deselect: 'Deselect',
     agentWatching: 'Agent is watching',
-    agentWatchingTooltip:
-      'Your agent already sees the selected element via the dev server — just ask it in chat. Leave comments here only when you want to queue a few before asking.',
+    agentWatchingTooltip: 'The selected element is synced to your agent in real time.',
     agentNotWatching: 'Agent not watching',
     agentNotWatchingTooltip:
       'Lost connection to the dev server, so your agent can no longer see the selected element. Restart the dev server to restore the connection.',

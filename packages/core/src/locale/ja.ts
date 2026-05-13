@@ -83,7 +83,7 @@ export const ja: Locale = {
   slide: {
     agentConnected: 'エージェント接続中',
     agentConnectedTooltip:
-      '現在のスライドと Inspector の選択状態を dev server がエージェントに公開しています。チャットで「このスライド」「この要素」と言えば認識されます。本番ビルドでは表示されません。',
+      '現在のスライドと Inspector の選択はエージェントにリアルタイムで同期されています。',
     agentDisconnected: 'エージェント切断',
     agentDisconnectedTooltip:
       'dev server との接続が切れたため、現在のスライドや Inspector の選択がエージェントに届かなくなっています。dev server を再起動して接続を復旧してください。',
@@ -200,8 +200,7 @@ export const ja: Locale = {
     cropApply: '適用',
     cropResetAria: 'トリミングをリセット',
     agentWatching: 'エージェント監視中',
-    agentWatchingTooltip:
-      'エージェントは選択中の要素を dev server 経由で把握しています。直接チャットで頼めます。ここにコメントを残すのは、複数の依頼をまとめて出したいときだけで OK。',
+    agentWatchingTooltip: '選択中の要素はエージェントにリアルタイムで同期されています。',
     agentNotWatching: 'エージェント未接続',
     agentNotWatchingTooltip:
       'dev server との接続が切れたため、選択中の要素がエージェントに見えなくなっています。dev server を再起動して接続を復旧してください。',
